@@ -10,34 +10,46 @@ A structured starting point for developing **Blender** add-ons.
 This guide shows how to set up a custom scripts folder so you can reload your
 add-ons without restarting **Blender**.
 
-1. Open **Blender** preferences by pressing `Ctrl` + `,` or going to `Edit` → `Preferences` in the **Blender** menu.
+1. Open **Blender** preferences by pressing `Ctrl` + `,` or going to `Edit` →
+`Preferences` in the **Blender** menu.
 
-    ![Open preferences](docs/media/blender_addon_01.png)
+    <p align="center">
+        <img src="docs/media/blender_addon_01.webp" alt="Open preferences">
+    </p>
 
 2. In the File Paths section, add a custom scripts directory.
 
-    > Make sure there is a directory named 
+    > [!NOTE]
+    Make sure there is a directory named 
     `addons` (lowercase) inside the selected folder.
 
-    ![Add scripts directory](docs/media/blender_addon_02.png)
+    <p align="center">
+        <img src="docs/media/blender_addon_02.webp" alt="Add scripts directory">
+    </p>
 
 3. Save your preferences so the settings persist between **Blender** sessions.
 
 4. Refresh local add-ons. Your add-on should now appear in the list for enabling/disabling.
 
-    > Reload your add-on during development by refreshing local add-ons again with no need to restart Blender.
+    > [!NOTE]
+    Reload your add-on during development by refreshing local add-ons again with no need to restart Blender.
 
-    ![Refresh add-ons list](docs/media/blender_addon_03.png)
+    <p align="center">
+        <img src="docs/media/blender_addon_03.webp" alt="Refresh add-ons list">
+    </p>
 
 5. Search for your add-on and activate it.
 
-    ![Activate add-on](docs/media/blender_addon_04.png)
+    <p align="center">
+    <img src="docs/media/blender_addon_04.webp" alt="Activate add-on">
+    </p>
 
 ## Custom scripts directory structure
 
 Here’s an example of how your custom scripts directory might be organized when adding **Blender** add-ons.
 
-> **Blender** supports both single-file and folder-based add-ons.
+> [!NOTE]
+**Blender** supports both single-file and folder-based add-ons.
 
 <pre>
 custom scripts directory/
