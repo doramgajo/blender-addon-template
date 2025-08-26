@@ -16,7 +16,7 @@ class ADDONNAME_OT_create_cube(Operator):
 
     def execute(self, context):
         mesh.primitive_cube_add()
-        return {'FINISHED'}
+        return {"FINISHED"}
 
 
 registrable = [

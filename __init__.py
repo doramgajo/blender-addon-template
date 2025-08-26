@@ -17,15 +17,15 @@ from .controller import operators
 
 
 bl_info = {
-    'name': 'Blender Add-on Template',
-    'description': 'Template used as a structured starting point for Blender addons',
-    'author': 'Doramas García Jorge (doramgajo)',
-    'version': (0, 0, 1),
-    'blender': (4, 4, 3),
-    'location': 'View3D > Sidebar > Blender Addon Template tab',
-    'warning': 'Experimental under-development add-on',
-    'tracker_url': 'https://github.com/doramgajo/blender-addon-template/issues',
-    'category': '3D View'
+    "name": "Blender Add-on Template",
+    "description": "Template used as a structured starting point for Blender addons",
+    "author": "Doramas García Jorge (doramgajo)",
+    "version": (0, 0, 1),
+    "blender": (4, 4, 3),
+    "location": "View3D > Sidebar > Blender Addon Template tab",
+    "warning": "Experimental under-development add-on",
+    "tracker_url": "https://github.com/doramgajo/blender-addon-template/issues",
+    "category": "3D View"
 }
 _registrable_classes = \
     operators.registrable \
