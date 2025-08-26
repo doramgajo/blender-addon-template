@@ -4,10 +4,6 @@ Blender Add-on Template
 Blender Add-on panels module.
 """
 
-# Standard library imports
-
-# Third-party imports
-
 # Blender-Python API imports
 from bpy.types import Panel
 

@@ -4,15 +4,9 @@ Blender Add-on Template
 Blender Add-on operators module.
 """
 
-# Standard library imports
-
-# Third-party imports
-
 # Blender-Python API imports
 from bpy.types import Operator
 from bpy.ops import mesh
-
-# Local application imports
 
 
 class ADDONNAME_OT_create_cube(Operator):
