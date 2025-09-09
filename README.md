@@ -10,39 +10,47 @@ A structured starting point for developing **Blender** add-ons.
 This guide shows how to set up a custom scripts folder so you can reload your
 add-ons without restarting **Blender**.
 
-1. Open **Blender** preferences by pressing `Ctrl` + `,` or going to `Edit` →
+### Open preferences
+
+Open **Blender** preferences by pressing `Ctrl` + `,` or going to `Edit` →
 `Preferences` in the **Blender** menu.
 
-    <p align="center">
-        <img src="docs/media/blender_addon_01.webp" alt="Open preferences">
-    </p>
+<p align="center">
+    <img src="docs/media/blender_addon_01.webp" alt="Open preferences">
+</p>
 
-2. In the File Paths section, add a custom scripts directory.
+### Add custom scripts directory
 
-    > [!NOTE]
-    Make sure there is a directory named 
-    `addons` (lowercase) inside the selected folder.
+In the File Paths section, add a custom scripts directory.
+> [!NOTE]
+Make sure there is a directory named 
+`addons` (lowercase) inside the selected folder.
 
-    <p align="center">
-        <img src="docs/media/blender_addon_02.webp" alt="Add scripts directory">
-    </p>
+<p align="center">
+    <img src="docs/media/blender_addon_02.webp" alt="Add scripts directory">
+</p>
 
-3. Save your preferences so the settings persist between **Blender** sessions.
+### Save preferences
 
-4. Refresh local add-ons. Your add-on should now appear in the list for enabling/disabling.
+Save your preferences so the settings persist between **Blender** sessions.
 
-    > [!NOTE]
-    Reload your add-on during development by refreshing local add-ons again with no need to restart Blender.
+### Refresh local add-ons
+Refresh local add-ons. Your add-on should now appear in the list for enabling/disabling.
 
-    <p align="center">
-        <img src="docs/media/blender_addon_03.webp" alt="Refresh add-ons list">
-    </p>
+> [!NOTE]
+Reload your add-on during development by refreshing local add-ons again with no need to restart Blender.
 
-5. Search for your add-on and activate it.
+<p align="center">
+    <img src="docs/media/blender_addon_03.webp" alt="Refresh add-ons list">
+</p>
 
-    <p align="center">
-    <img src="docs/media/blender_addon_04.webp" alt="Activate add-on">
-    </p>
+### Activate the addon
+
+Search for your add-on and activate it.
+
+<p align="center">
+<img src="docs/media/blender_addon_04.webp" alt="Activate add-on">
+</p>
 
 ## Custom scripts directory structure
 
